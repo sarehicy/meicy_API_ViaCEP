@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+
+<html>
+
+    <head>
+        <title>Via CEP</title>
+        <meta charset="uft-8">
+        <link rel="stylesheet" href="css/estilo.css">
+        <script src="js/viacep.js" defer></script>
+    </head>
+
+    <body>
+        <div class="main">
+            <form action="." method="get">
+                <label>♡ CEP 🍓</label>
+                <input type="text" id="i_cep" maxlength="9" onblur="pesquisa_cep(this.value)">
+
+                <label>♡ Rua 🦇</label>
+                <input type="text" id="i_rua" disabled>
+
+                <label>♡ Bairro 💿</label>
+                <input type="text" id="i_bairro" disabled>
+
+                <label>♡ Cidade 🥞</label>
+                <input type="text" id="i_cidade" disabled>
+
+                <label>♡ UF 🌌</label>
+                <input type="text" id="i_uf" disabled>
+            </form>
+        </div>
+    </body>
+
+</html>

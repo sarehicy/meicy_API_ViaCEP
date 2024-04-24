@@ -1,0 +1,49 @@
+@font-face {
+    font-family: PoppinsM;
+    src: url(font/Poppins-Medium.ttf);
+}
+
+body{
+    background-color: rgb(17, 17, 17);
+}
+
+.main{
+    background-color: rgb(216, 93, 144);
+    width: max-content;
+    padding: 30px;
+    margin: auto;
+
+    margin-top: 200px;
+    border-radius: 10px;
+    border: solid 3px rgb(99, 10, 40);
+
+
+}
+
+label{
+    display: block;
+
+    font-family: PoppinsM;
+    font-size: 20px;
+
+}
+
+.main input{
+    border-radius: 10px;
+    width: 360px;
+    height: 30px;
+    font-size: 20px;
+    text-indent: 10px;
+    margin-bottom: 30px;
+    border: 3px rgb(99, 10, 40);
+    background-color: rgb(232, 248, 255);
+    box-shadow: none;
+    border-style: solid;
+    color: black;
+}
+
+.main input:focus{
+    border-color: rgb(38, 24, 109);
+    box-shadow: none;
+    border-style: solid;
+}
